@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F7F6; /* Fundo claro suave */
+    color: #333333; /* Cor de texto padrão */
+}
+
+header {
+    background-color: #005f73; /* Azul profundo */
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+        
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e1e1e1;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EE9B00; /* Coral suave */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #005f73; /* Azul profundo ao passar o mouse */
+}
+
+nav ul li img {
+    width: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+nav ul li img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.fotocapa {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #005f73; /* Azul profundo */
+}
+
+.surf_paradaise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.surf_paradaise div {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.surf_paradaise div:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+}
+
+.foto_surfe {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #005f73;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .surf_paradaise {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .surf_paradaise {
+        grid-template-columns: 1fr;
+    }
+}
