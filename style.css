@@ -26,6 +26,7 @@ hr {
     margin: 20px 0;
 }
 
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -43,22 +44,22 @@ nav ul li a {
     text-decoration: none;
     color: #EE9B00; /* Coral suave */
     font-weight: bold;
-    transition: color 0.3s ease;
+    transition: color 3s ease;
 }
 
 nav ul li a:hover {
     color: #005f73; /* Azul profundo ao passar o mouse */
 }
 
-nav ul li img {
+/* nav ul li img {
     width: 60px;
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
 
 nav ul li img:hover {
-    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
-}
+    transform: scale(1.1); Aumenta a imagem ao passar o mouse
+} */
 
 main {
     padding: 20px;
